@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Kz2LBB" name="guiTutorialOne" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+  <MAINGROUP id="waiFb9" name="guiTutorialOne">
+    <GROUP id="{5A228E64-C602-8990-CA35-F3C2285D3A23}" name="Source">
+      <FILE id="bm2oXl" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="ycIvZU" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="D78I4E" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+    <FILE id="Ku8XUp" name="GrassComponent.cpp" compile="1" resource="0"
+          file="Source/GrassComponent.cpp"/>
+    <FILE id="eCdZ1F" name="GrassComponent.h" compile="0" resource="0"
+          file="Source/GrassComponent.h"/>
+    <FILE id="pNGFNO" name="RoofComponent.cpp" compile="1" resource="0"
+          file="Source/RoofComponent.cpp"/>
+    <FILE id="MvMJ7F" name="RoofComponent.h" compile="0" resource="0" file="Source/RoofComponent.h"/>
+    <FILE id="rkr5s0" name="SunComponent.cpp" compile="1" resource="0"
+          file="Source/SunComponent.cpp"/>
+    <FILE id="pNyWxF" name="SunComponent.h" compile="0" resource="0" file="Source/SunComponent.h"/>
+    <FILE id="njK7si" name="TextComponent.cpp" compile="1" resource="0"
+          file="Source/TextComponent.cpp"/>
+    <FILE id="esgBAg" name="TextComponent.h" compile="0" resource="0" file="Source/TextComponent.h"/>
+    <FILE id="g0OvO1" name="WallComponent.cpp" compile="1" resource="0"
+          file="Source/WallComponent.cpp"/>
+    <FILE id="aoyUbW" name="WallComponent.h" compile="0" resource="0" file="Source/WallComponent.h"/>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="guiTutorialOne"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="guiTutorialOne"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
